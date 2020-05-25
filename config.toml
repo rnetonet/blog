@@ -1,0 +1,52 @@
+# Theme
+theme = "pickles"
+
+# Base URL of the site, the only required config argument
+base_url = "rneto.net"
+
+# Used in RSS by default
+title = "Rui Neto"
+description = "Blog"
+
+# The default language, used in RSS
+default_language = "en"
+
+# Highlight all code blocks found
+highlight_code = true
+
+# Which theme to use for the code highlighting.
+# See below for list of accepted values
+highlight_theme = "inspired-github"
+
+# Whether to generate a RSS feed automatically
+generate_rss = true
+
+# The number of articles to include in the RSS feed. Will include all items if
+# not set (the default).
+rss_limit = 10
+
+# Whether to compile the Sass files found in the `sass` directory
+compile_sass = true
+
+# Whether to build a search index out of the pages and section
+# content for the `default_language`
+build_search_index = false
+
+# A list of glob patterns specifying asset files to ignore when
+# processing the content directory.
+# Defaults to none, which means all asset files are copied over to the public folder.
+# Example:
+#     ignored_content = ["*.{graphml,xlsx}", "temp.*"]
+ignored_content = []
+
+# A list of directories to search for additional `.sublime-syntax` files in.
+extra_syntaxes = []
+
+# You can put any kind of data in there and it
+# will be accessible in all templates
+[extra]
+subtitle = ""
+copyright = ""
+analytics = ""
+katex_enable = true
+instantpage_enable = true

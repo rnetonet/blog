@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Rui Neto</title>
+        <link>rneto.net</link>
+        <description>Blog</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="rneto.net/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 14 Nov 2019 12:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Meu primeiro post | Rui Neto</title>
+                <pubDate>Thu, 14 Nov 2019 12:00:00 +0000</pubDate>
+                <link>rneto.net/20200525-first/</link>
+                <guid>rneto.net/20200525-first/</guid>
+                <description>&lt;p&gt;É muito fácil criar uma postagem com &lt;strong&gt;Zola&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Basta escrever Markdown com toda a sua maravilhosidade.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;É fácil acoplar um video do Youtube usando Shortcodes&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
+    &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;u9rY0WhW0u0&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;&quot; title=&quot;youtube video&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;e-tambem-tem-syntax-highlight&quot;&gt;E também tem syntax-highlight&lt;a class=&quot;zola-anchor&quot; href=&quot;#e-tambem-tem-syntax-highlight&quot; aria-label=&quot;Anchor link for: e-tambem-tem-syntax-highlight&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#323232;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#323232;&quot;&gt;():
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#183691;&quot;&gt;&amp;#39;World&amp;#39;
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;</description>
+                <content:encoded>&lt;p&gt;É muito fácil criar uma postagem com &lt;strong&gt;Zola&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Basta escrever Markdown com toda a sua maravilhosidade.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;É fácil acoplar um video do Youtube usando Shortcodes&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
+    &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;u9rY0WhW0u0&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;&quot; title=&quot;youtube video&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;e-tambem-tem-syntax-highlight&quot;&gt;E também tem syntax-highlight&lt;a class=&quot;zola-anchor&quot; href=&quot;#e-tambem-tem-syntax-highlight&quot; aria-label=&quot;Anchor link for: e-tambem-tem-syntax-highlight&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#323232;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span style=&quot;color:#323232;&quot;&gt;():
+    &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#183691;&quot;&gt;&amp;#39;World&amp;#39;
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;</content:encoded>
+            </item>
+        
+    </channel>
+</rss>
