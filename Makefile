@@ -3,4 +3,5 @@ publish:
 	rm -rf docs
 	mkdir docs
 	./zola build --output-dir docs
+	cp CNAME docs/
 
