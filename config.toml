@@ -2,7 +2,7 @@
 theme = "pickles"
 
 # Base URL of the site, the only required config argument
-base_url = "rneto.net"
+base_url = "https://rneto.net/"
 
 # Used in RSS by default
 title = "Rui Neto"

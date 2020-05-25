@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: rneto.net/sitemap.xml
+Sitemap: https://rneto.net/sitemap.xml

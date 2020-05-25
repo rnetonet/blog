@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Rui Neto</title>
-        <link>rneto.net</link>
+        <link>https://rneto.net/</link>
         <description>Blog</description>
         <generator>Zola</generator>
         <language>en</language>
-        <atom:link href="rneto.net/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://rneto.net/rss.xml" rel="self" type="application/rss+xml"/>
         <lastBuildDate>Thu, 14 Nov 2019 12:00:00 +0000</lastBuildDate>
         
             <item>
                 <title>Meu primeiro post | Rui Neto</title>
                 <pubDate>Thu, 14 Nov 2019 12:00:00 +0000</pubDate>
-                <link>rneto.net/20200525-first/</link>
-                <guid>rneto.net/20200525-first/</guid>
+                <link>https://rneto.net/20200525-first/</link>
+                <guid>https://rneto.net/20200525-first/</guid>
                 <description>&lt;p&gt;É muito fácil criar uma postagem com &lt;strong&gt;Zola&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Basta escrever Markdown com toda a sua maravilhosidade.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
