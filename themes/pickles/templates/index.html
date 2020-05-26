@@ -72,13 +72,6 @@
             {% for page in paginator.pages %}
             <article class="c-article p-list-article">
                 {{ post_macros::title(page=page) }}
-                <div class="c-article__summary">
-                    {% if page.summary -%}
-                    {{ post_macros::polish(content=page.summary) }}
-                    {% else %}
-                    {{ post_macros::polish(content=page.content) | truncate(length=280) }}
-                    {%- endif %}
-                </div>
             </article>
             {% endfor %}
 

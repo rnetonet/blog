@@ -45,7 +45,7 @@ extra_syntaxes = []
 # You can put any kind of data in there and it
 # will be accessible in all templates
 [extra]
-subtitle = ""
+subtitle = "blog"
 copyright = ""
 analytics = ""
 katex_enable = true

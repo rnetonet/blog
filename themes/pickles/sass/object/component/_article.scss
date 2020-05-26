@@ -2,7 +2,7 @@
 
 .c-article {
   &__title {
-    font-size: 2.4rem;
+    font-size: 1rem;
     & a {
       color: $color-title;
       &:hover {
@@ -11,13 +11,14 @@
     }
   }
   &__meta {
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1;
-    font-style: italic;
+    font-style: normal;
     color: $color-meta;
+    margin-left: 1rem;
   }
   &__summary {
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: $color-text;
     line-height: 1.5;
     & p {
@@ -27,7 +28,7 @@
   &__btn {
     display: inline-block;
     padding-bottom: 4px;
-    font-size: 1.6rem;
+    font-size: 11rem;
     &::after {
       content: '';
       display: inline-block;
