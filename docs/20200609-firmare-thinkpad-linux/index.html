@@ -7,9 +7,9 @@
         <!-- Enable responsiveness on mobile devices-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
-        <title>Meu primeiro post | Rui Neto</title>
-<meta property="og:title" content="Meu primeiro post | Rui Neto" />
-<meta name="twitter:title" content="Meu primeiro post | Rui Neto" />
+        <title>Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux | Rui Neto</title>
+<meta property="og:title" content="Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux | Rui Neto" />
+<meta name="twitter:title" content="Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux | Rui Neto" />
 
         <meta name="description" content="Blog">
         <meta property="og:description" content="Blog">
@@ -23,7 +23,7 @@
 
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https:&#x2F;&#x2F;rneto.net&#x2F;base.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Literata:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <link href="https:&#x2F;&#x2F;rneto.net&#x2F;fontawesome&#x2F;fontawesome.css" rel="stylesheet">
         <link href="https:&#x2F;&#x2F;rneto.net&#x2F;fontawesome&#x2F;brands.css" rel="stylesheet">
         <link href="https:&#x2F;&#x2F;rneto.net&#x2F;fontawesome&#x2F;solid.css" rel="stylesheet">
@@ -39,18 +39,21 @@
         <a href="#main" class="skip-link p-screen-reader-text">Skip to content</a>
         <header class="l-header">
             <h1 class="c-title p-title"><a href="https:&#x2F;&#x2F;rneto.net&#x2F;" class="p-title__link">Rui Neto</a></h1>
+            <p class="p-subtitle">
+                blog
+            </p>
             </header>
 
         <main id="main" class="l-main">
             
 <article class="p-article">
     <header>
-        <h1>Meu primeiro post</h1>
+        <h1>Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux</h1>
         <div>
             <div class="c-time">
 
-                <time datetime="2019-11-14">
-                    2019-11-14
+                <time datetime="2020-06-09">
+                    2020-06-09
                 </time>
                 
                  - (1 min read)
@@ -60,21 +63,51 @@
     
     <section id="js-article" class="p-article__body">
         
-    <p>É muito fácil criar uma postagem com <strong>Zola</strong></p>
-<p>Basta escrever Markdown com toda a sua maravilhosidade.</p>
-<blockquote>
-<p>É fácil acoplar um video do Youtube usando Shortcodes</p>
-</blockquote>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-    <iframe src="https://www.youtube.com/embed/u9rY0WhW0u0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" title="youtube video" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-    </iframe>
-</div>
-<hr />
-<h2 id="e-tambem-tem-syntax-highlight">E também tem syntax-highlight<a class="zola-anchor" href="#e-tambem-tem-syntax-highlight" aria-label="Anchor link for: e-tambem-tem-syntax-highlight">🔗</a></h2>
+    <ol>
+<li>
+<p>Acesse o site de suporte da <a href="https://support.lenovo.com/">Lenovo</a></p>
+</li>
+<li>
+<p>Busque pelo modelo do seu notebook (Ex: 440)</p>
+</li>
+<li>
+<p>Escolha o modelo correto</p>
+</li>
+<li>
+<p>Clique na opção de <em>Drives e Software</em></p>
+</li>
+<li>
+<p>Acesse a categoria <strong>BIOS</strong></p>
+</li>
+<li>
+<p>Faça download da última atualização em formato de CD bootável</p>
+</li>
+<li>
+<p>Faça a extração da imagem:</p>
+<p>7.1. Instale o utilitário <code>geteltorito</code> primeiro:</p>
 <pre style="background-color:#ffffff;">
-<span style="font-weight:bold;color:#a71d5d;">def </span><span style="font-weight:bold;color:#323232;">hello</span><span style="color:#323232;">():
-    </span><span style="font-weight:bold;color:#a71d5d;">return </span><span style="color:#183691;">&#39;World&#39;
+<span style="color:#323232;">$ sudo apt-get install genisoimage
 </span></pre>
+<p>7.2. Na pasta onde você baixou a <strong>ISO</strong>, extraia a imagem:</p>
+<pre style="background-color:#ffffff;">
+<span style="color:#323232;">$ geteltorito -o bios.img arquivo_baixado.iso
+</span></pre></li>
+<li>
+<p>Verifique qual o nome da partição atribuída ao seu pen-drive: <code>/dev/sdb</code>, <code>/dev/sdc</code>. <strong>Cuidado!</strong>.</p>
+</li>
+<li>
+<p>Assegure-se que a partição está desmontada.</p>
+</li>
+<li>
+<p>Copie a imagem extraída para o pen-drive:</p>
+<pre style="background-color:#ffffff;">
+<span style="color:#323232;">$ sudo dd if=bios.img of=/dev/sdb bs=1024 status=progress
+</span></pre></li>
+<li>
+<p>Agora realize o boot do sistema pelo pen-drive e siga as instruções.</p>
+</li>
+</ol>
+
 
     </section>
     <footer>

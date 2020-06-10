@@ -12,7 +12,7 @@ html {
 body {
   color: $color-text;
   font-size: 1rem;
-  font-family: $SanFrancisco;
+  font-family: $TextFont;
   line-height: 1.5;
 }
 
@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  font-family: $SourceSansPro;
+  font-family: $TextFont;
 }
 
 h1 {
@@ -98,14 +98,14 @@ pre {
   padding: 12px;
   border-radius: 3px;
   background-color: #f8f8f8;
-  font-family: $SourceCodePro;
+  font-family: $CodeFont;
   font-size: 16px;
   word-wrap: break-word;
   overflow: auto;
 }
 
 code {
-  font-family: $SourceCodePro;
+  font-family: $CodeFont;
   line-height: 1.8;
   font-size: 1rem;
 }

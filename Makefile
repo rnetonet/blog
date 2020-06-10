@@ -5,3 +5,5 @@ publish:
 	./zola build --output-dir docs
 	cp CNAME docs/
 
+serve:
+	./zola serve
