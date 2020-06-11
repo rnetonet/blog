@@ -30,3 +30,10 @@ li, li > * {
     margin-bottom: 1rem;
     margin-left: 1rem;
 }
+
+/*
+** Hyperlinks
+*/
+section a {
+    text-decoration: underline;
+}
