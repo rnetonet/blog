@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+{% block title -%}
+<title>{{page.title}} | {{config.title}}</title>
+<meta property="og:title" content="{{page.title}} | {{config.title}}" />
+<meta name="twitter:title" content="{{page.title}} | {{config.title}}" />
+{%- endblock title %}
+
+{% block content %}
+<article>
+    <div class="grid grid-cols-4 gap-1">
+        <div class="col-span-3 mb-3 font-bold">
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </div>
+        <div class="text-right text-gray-600">
+            <time datetime="{{ page.date | date(format="%F") | safe }}">
+                {{ page.date | date(format="%F") }}
+            </time>
+            {% if page.extra.author -%}
+            by {{ page.extra.author}}
+            {%- endif %}
+            {{ " - " }}({{ page.reading_time }} min read)
+    </div>
+</article>
+
+<section class="py-5">
+    {{ page.content | safe }}
+</section>
+{%- endblock content %}
