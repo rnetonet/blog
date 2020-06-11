@@ -14,13 +14,13 @@ date = 2020-06-09
     7.1. Instale o utilitário `geteltorito` primeiro:
 
     ```bash
-    $ sudo apt-get install genisoimage
+    sudo apt-get install genisoimage
     ```
 
     7.2. Na pasta onde você baixou a **ISO**, extraia a imagem:
 
     ```bash
-    $ geteltorito -o bios.img arquivo_baixado.iso
+    geteltorito -o bios.img arquivo_baixado.iso
     ```
 
 8. Verifique qual o nome da partição atribuída ao seu pen-drive: `/dev/sdb`, `/dev/sdc`. **Cuidado!**.
@@ -28,7 +28,7 @@ date = 2020-06-09
 10. Copie a imagem extraída para o pen-drive:
 
     ```bash
-    $ sudo dd if=bios.img of=/dev/sdb bs=1024 status=progress
+    sudo dd if=bios.img of=/dev/sdb bs=1024 status=progress
     ```
 
 11. Agora realize o boot do sistema pelo pen-drive e siga as instruções.

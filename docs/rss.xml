@@ -37,11 +37,11 @@
 &lt;p&gt;Faça a extração da imagem:&lt;&#x2F;p&gt;
 &lt;p&gt;7.1. Instale o utilitário &lt;code&gt;geteltorito&lt;&#x2F;code&gt; primeiro:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
-&lt;span style=&quot;color:#323232;&quot;&gt;$ sudo apt-get install genisoimage
+&lt;span style=&quot;color:#323232;&quot;&gt;sudo apt-get install genisoimage
 &lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;7.2. Na pasta onde você baixou a &lt;strong&gt;ISO&lt;&#x2F;strong&gt;, extraia a imagem:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
-&lt;span style=&quot;color:#323232;&quot;&gt;$ geteltorito -o bios.img arquivo_baixado.iso
+&lt;span style=&quot;color:#323232;&quot;&gt;geteltorito -o bios.img arquivo_baixado.iso
 &lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;Verifique qual o nome da partição atribuída ao seu pen-drive: &lt;code&gt;&#x2F;dev&#x2F;sdb&lt;&#x2F;code&gt;, &lt;code&gt;&#x2F;dev&#x2F;sdc&lt;&#x2F;code&gt;. &lt;strong&gt;Cuidado!&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
@@ -52,7 +52,7 @@
 &lt;li&gt;
 &lt;p&gt;Copie a imagem extraída para o pen-drive:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
-&lt;span style=&quot;color:#323232;&quot;&gt;$ sudo dd if=bios.img of=&#x2F;dev&#x2F;sdb bs=1024 status=progress
+&lt;span style=&quot;color:#323232;&quot;&gt;sudo dd if=bios.img of=&#x2F;dev&#x2F;sdb bs=1024 status=progress
 &lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;Agora realize o boot do sistema pelo pen-drive e siga as instruções.&lt;&#x2F;p&gt;
@@ -82,11 +82,11 @@
 &lt;p&gt;Faça a extração da imagem:&lt;&#x2F;p&gt;
 &lt;p&gt;7.1. Instale o utilitário &lt;code&gt;geteltorito&lt;&#x2F;code&gt; primeiro:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
-&lt;span style=&quot;color:#323232;&quot;&gt;$ sudo apt-get install genisoimage
+&lt;span style=&quot;color:#323232;&quot;&gt;sudo apt-get install genisoimage
 &lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;7.2. Na pasta onde você baixou a &lt;strong&gt;ISO&lt;&#x2F;strong&gt;, extraia a imagem:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
-&lt;span style=&quot;color:#323232;&quot;&gt;$ geteltorito -o bios.img arquivo_baixado.iso
+&lt;span style=&quot;color:#323232;&quot;&gt;geteltorito -o bios.img arquivo_baixado.iso
 &lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;Verifique qual o nome da partição atribuída ao seu pen-drive: &lt;code&gt;&#x2F;dev&#x2F;sdb&lt;&#x2F;code&gt;, &lt;code&gt;&#x2F;dev&#x2F;sdc&lt;&#x2F;code&gt;. &lt;strong&gt;Cuidado!&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
@@ -97,7 +97,7 @@
 &lt;li&gt;
 &lt;p&gt;Copie a imagem extraída para o pen-drive:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
-&lt;span style=&quot;color:#323232;&quot;&gt;$ sudo dd if=bios.img of=&#x2F;dev&#x2F;sdb bs=1024 status=progress
+&lt;span style=&quot;color:#323232;&quot;&gt;sudo dd if=bios.img of=&#x2F;dev&#x2F;sdb bs=1024 status=progress
 &lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;Agora realize o boot do sistema pelo pen-drive e siga as instruções.&lt;&#x2F;p&gt;

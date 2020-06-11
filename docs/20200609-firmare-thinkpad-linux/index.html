@@ -34,33 +34,28 @@
 
     </head>
     <body>
-        <div class="container mx-auto pt-4 font-sans text-base">
-            <div class="mt-10 mb-3">
-                <a class="text-xl font-bold" href="https:&#x2F;&#x2F;rneto.net&#x2F;">
+        <div class="container mx-auto mt-4 font-serif text-lg">
+            <div class="mt-6 mb-6">
+                <a class="text-2xl font-bold" href="https:&#x2F;&#x2F;rneto.net&#x2F;">
                     Rui Neto
                 </a>
-                </div>
-                <div class="mb-10">
-                    <a class="mr-3" href="https://github.com/rnetonet/"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/rnetonet/"><i class="fab fa-twitter"></i></a>
-                </div>
+            </div>
+            <div class="mb-10">
+                <a class="mr-3" href="https://github.com/rnetonet/"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/rnetonet/"><i class="fab fa-twitter"></i></a>
+            </div>
 
             
-<article>
-    <div class="grid grid-cols-4 gap-1">
-        <div class="col-span-3 mb-3 font-bold">
-            <a href="https:&#x2F;&#x2F;rneto.net&#x2F;20200609-firmare-thinkpad-linux&#x2F;">Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux</a>
-        </div>
-        <div class="text-right text-gray-600">
-            <time datetime="2020-06-09">
-                2020-06-09
-            </time>
-            
-             - (1 min)
-    </div>
-</article>
+<header class="my-6">
+    <span class="text-gray-700 mr-4">
+        <time datetime="09/06/2020">
+            09&#x2F;06&#x2F;2020
+        </time>
+    </span>
+    <a class="font-bold" href="https:&#x2F;&#x2F;rneto.net&#x2F;20200609-firmare-thinkpad-linux&#x2F;">Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux</a>
+</header>
 
-<section class="py-5">
+<article class="my-4">
     <ol>
 <li>
 <p>Acesse o site de suporte da <a href="https://support.lenovo.com/">Lenovo</a></p>
@@ -84,11 +79,11 @@
 <p>Faça a extração da imagem:</p>
 <p>7.1. Instale o utilitário <code>geteltorito</code> primeiro:</p>
 <pre style="background-color:#ffffff;">
-<span style="color:#323232;">$ sudo apt-get install genisoimage
+<span style="color:#323232;">sudo apt-get install genisoimage
 </span></pre>
 <p>7.2. Na pasta onde você baixou a <strong>ISO</strong>, extraia a imagem:</p>
 <pre style="background-color:#ffffff;">
-<span style="color:#323232;">$ geteltorito -o bios.img arquivo_baixado.iso
+<span style="color:#323232;">geteltorito -o bios.img arquivo_baixado.iso
 </span></pre></li>
 <li>
 <p>Verifique qual o nome da partição atribuída ao seu pen-drive: <code>/dev/sdb</code>, <code>/dev/sdc</code>. <strong>Cuidado!</strong>.</p>
@@ -99,14 +94,14 @@
 <li>
 <p>Copie a imagem extraída para o pen-drive:</p>
 <pre style="background-color:#ffffff;">
-<span style="color:#323232;">$ sudo dd if=bios.img of=/dev/sdb bs=1024 status=progress
+<span style="color:#323232;">sudo dd if=bios.img of=/dev/sdb bs=1024 status=progress
 </span></pre></li>
 <li>
 <p>Agora realize o boot do sistema pelo pen-drive e siga as instruções.</p>
 </li>
 </ol>
 
-</section>
+</article>
         </div>
     </body>
 </html>

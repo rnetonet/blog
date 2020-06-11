@@ -7,23 +7,16 @@
 {%- endblock title %}
 
 {% block content %}
-<article>
-    <div class="grid grid-cols-4 gap-1">
-        <div class="col-span-3 mb-3 font-bold">
-            <a href="{{ page.permalink }}">{{ page.title }}</a>
-        </div>
-        <div class="text-right text-gray-600">
-            <time datetime="{{ page.date | date(format="%F") | safe }}">
-                {{ page.date | date(format="%F") }}
-            </time>
-            {% if page.extra.author -%}
-            by {{ page.extra.author}}
-            {%- endif %}
-            {{ " - " }}({{ page.reading_time }} min)
-    </div>
-</article>
+<header class="my-6">
+    <span class="text-gray-700 mr-4">
+        <time datetime="{{ page.date | date(format="%d/%m/%Y") | safe }}">
+            {{ page.date | date(format="%d/%m/%Y") }}
+        </time>
+    </span>
+    <a class="font-bold" href="{{ page.permalink }}">{{ page.title }}</a>
+</header>
 
-<section class="py-5">
+<article class="my-4">
     {{ page.content | safe }}
-</section>
+</article>
 {%- endblock content %}
