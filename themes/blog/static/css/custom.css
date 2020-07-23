@@ -21,6 +21,10 @@ samp {
     "Courier New", monospace;
 }
 
+.font-sans, .font-serif, .font-mono {
+  font-size: 16px;
+}
+
 code,
 kbd,
 pre,
