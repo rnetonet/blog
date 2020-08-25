@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Rui Neto</title>
+        <title>rneto.net</title>
         <link>https://rneto.net/</link>
         <description></description>
         <generator>Zola</generator>
@@ -10,7 +10,7 @@
         <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate>
         
             <item>
-                <title>Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux | Rui Neto</title>
+                <title>Como atualizar o firmware (BIOS) de um Thinkpad 440 utilizando Linux | rneto.net</title>
                 <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
                 <link>https://rneto.net/20200609-firmare-thinkpad-linux/</link>
                 <guid>https://rneto.net/20200609-firmare-thinkpad-linux/</guid>
