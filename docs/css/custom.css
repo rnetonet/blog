@@ -2,13 +2,13 @@
 ** Fonts
 */
 .font-sans {
-  font-family: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont,
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-serif {
-  font-family: "Source Serif Pro", Georgia, Cambria, "Times New Roman", Times,
+  font-family: "Literata", Georgia, Cambria, "Times New Roman", Times,
     serif;
 }
 
@@ -17,12 +17,16 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono",
+  font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
 }
 
-.font-sans, .font-serif, .font-mono {
+.font-serif {
   font-size: 16px;
+}
+
+pre, code, pre code {
+  font-size: 13px;
 }
 
 code,
