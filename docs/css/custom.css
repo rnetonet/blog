@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /*
 ** Fonts
@@ -15,7 +14,8 @@
 }
 
 .font-serif {
-  font-family: "Literata", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Source Serif Pro", Georgia, Cambria, "Times New Roman", Times,
+    serif;
   font-size: 16px;
 }
 
@@ -24,7 +24,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono",
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   font-size: 16px;
   font-variant-ligatures: none;
