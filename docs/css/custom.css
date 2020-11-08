@@ -34,7 +34,12 @@ code,
 kbd,
 pre,
 samp {
-  padding: 0.25rem;
+  padding: 0.5rem;
+}
+
+code {
+  border: 1px solid lightgray;
+  border-radius: 5px;
 }
 
 /*
