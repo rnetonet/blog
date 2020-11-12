@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Literata:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css');
 
 /*
 ** Fonts
@@ -24,9 +25,9 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Inconsolata", Menlo, Monaco, Consolas, "Liberation Mono",
+  font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
-  font-size: 16px;
+  font-size: 13px;
   font-variant-ligatures: none;
 }
 
