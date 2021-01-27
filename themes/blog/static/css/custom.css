@@ -1,4 +1,4 @@
-@import 'source_serif_pro/source-serif-pro.css';
+@import 'source_serif_pro/source-serif-text.css';
 @import 'source_code_pro/source-code-pro.css';
 
 /*
@@ -15,7 +15,7 @@
 }
 
 .font-serif {
-  font-family: "Source Serif Pro", Georgia, Cambria, "Times New Roman", Times,
+  font-family: "Source Serif 4", Georgia, Cambria, "Times New Roman", Times,
     serif;
   font-size: 16px;
 }
