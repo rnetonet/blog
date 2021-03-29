@@ -1,5 +1,5 @@
-@import 'source_serif_pro/source-serif-text.css';
-@import 'source_code_pro/source-code-pro.css';
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
 
 /*
 ** Fonts
@@ -15,7 +15,7 @@
 }
 
 .font-serif {
-  font-family: "Source Serif 4", Georgia, Cambria, "Times New Roman", Times,
+  font-family: "Literata", Georgia, Cambria, "Times New Roman", Times,
     serif;
   font-size: 16px;
 }
@@ -25,7 +25,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono",
+  font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   font-size: 13px;
   font-variant-ligatures: none;
