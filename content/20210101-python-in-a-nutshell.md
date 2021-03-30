@@ -1,12 +1,14 @@
 +++
 title = "Notas: Python in a Nutshell, 3rd"
 date = 2021-01-01
+draft = true
 +++
 
-# A Linguagem
+* __Estrutura__
 
-## Estrutura
+Python é identada:
 
-### Linhas e Identação
-
-lorem ipsum
+```python
+def main():
+    print("Hello World!")
+```

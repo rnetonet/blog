@@ -1,5 +1,5 @@
 # Theme
-theme = "blog"
+theme = "minima"
 
 # Base URL of the site, the only required config argument
 base_url = "https://rneto.net/"
@@ -50,3 +50,5 @@ copyright = ""
 analytics = ""
 katex_enable = true
 instantpage_enable = true
+
+links = [{url = "http://github.com/rnetonet/", name = "[ Github ]"}, {url = "http://twitter.com/rnetonet/", name = "[ Twitter ]"}]
