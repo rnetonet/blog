@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>rneto.net</title>
+        <link rel="stylesheet" href="https:&#x2F;&#x2F;rneto.net&#x2F;minima.css">
+        
+        
+        
+    </head>
+
+    <body>
+
+        <header class="site-header">
+
+            <div class="wrapper">
+                <a class="site-title" rel="author" href="https:&#x2F;&#x2F;rneto.net&#x2F;">rneto.net</a>
+
+                <nav class="site-nav">
+                    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+                    <label for="nav-trigger">
+                        <span class="menu-icon">
+                            <svg viewBox="0 0 18 15" width="18px" height="15px">
+                                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+                            </svg>
+                        </span>
+                    </label>
+
+                    <div class="trigger">
+                        
+                            <a class="page-link" href="http:&#x2F;&#x2F;github.com&#x2F;rnetonet&#x2F;">[ Github ]</a>
+                        
+                            <a class="page-link" href="http:&#x2F;&#x2F;twitter.com&#x2F;rnetonet&#x2F;">[ Twitter ]</a>
+                        
+                    </div>
+                </nav>
+                
+            </div>
+        </header>
+
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <span class="post-meta">2021-04-03</span>
+    <span>
+      <a class="post-link" href="https:&#x2F;&#x2F;rneto.net&#x2F;20210403-ipython-classic-shell&#x2F;">
+        Prompt clássico no iPython
+      </a>
+    </span>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>O <a href="https://https://ipython.org/">iPython</a> é uma shell melhorada para linguagem Python. Contudo, seus prompts são diferentes do formato clássico, dificultando a renderização (<em>syntax highlight</em>) em alguns ambientes.</p>
+<pre style="background-color:#ffffff;">
+<code><span style="color:#323232;">Python </span><span style="color:#0086b3;">3.8.5 </span><span style="color:#323232;">(default, Jan </span><span style="color:#0086b3;">27 2021</span><span style="color:#323232;">, </span><span style="color:#0086b3;">15</span><span style="color:#323232;">:</span><span style="color:#0086b3;">41</span><span style="color:#323232;">:</span><span style="color:#0086b3;">15</span><span style="color:#323232;">) 
+Type </span><span style="color:#183691;">&#39;copyright&#39;</span><span style="color:#323232;">, </span><span style="color:#183691;">&#39;credits&#39; </span><span style="font-weight:bold;color:#a71d5d;">or </span><span style="color:#183691;">&#39;license&#39; </span><span style="font-weight:bold;color:#a71d5d;">for </span><span style="color:#323232;">more information
+IPython </span><span style="color:#0086b3;">7.22.0 </span><span style="font-weight:bold;color:#a71d5d;">-- </span><span style="color:#323232;">An enhanced Interactive Python. Type </span><span style="color:#183691;">&#39;?&#39; </span><span style="font-weight:bold;color:#a71d5d;">for </span><span style="color:#62a35c;">help</span><span style="color:#323232;">.
+
+In [</span><span style="color:#0086b3;">1</span><span style="color:#323232;">]: </span><span style="color:#62a35c;">print</span><span style="color:#323232;">(</span><span style="color:#183691;">&quot;Hello World&quot;</span><span style="color:#323232;">)
+Hello World
+
+In [</span><span style="color:#0086b3;">2</span><span style="color:#323232;">]: </span><span style="font-weight:bold;color:#a71d5d;">for </span><span style="color:#323232;">i </span><span style="font-weight:bold;color:#a71d5d;">in </span><span style="color:#62a35c;">range</span><span style="color:#323232;">(</span><span style="color:#0086b3;">3</span><span style="color:#323232;">):
+   </span><span style="color:#0086b3;">...</span><span style="color:#323232;">:     </span><span style="color:#62a35c;">print</span><span style="color:#323232;">(i)
+   ...: 
+</span><span style="color:#0086b3;">0
+1
+2
+
+</span><span style="color:#323232;">In [</span><span style="color:#0086b3;">3</span><span style="color:#323232;">]: 
+</span></code></pre>
+<p>Mas é possível alterar para o prompt clássico:</p>
+<pre style="background-color:#ffffff;">
+<code><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#323232;">ipython
+Python </span><span style="color:#0086b3;">3.8.5 </span><span style="color:#323232;">(default, Jan </span><span style="color:#0086b3;">27 2021</span><span style="color:#323232;">, </span><span style="color:#0086b3;">15</span><span style="color:#323232;">:</span><span style="color:#0086b3;">41</span><span style="color:#323232;">:</span><span style="color:#0086b3;">15</span><span style="color:#323232;">) 
+Type </span><span style="color:#183691;">&#39;copyright&#39;</span><span style="color:#323232;">, </span><span style="color:#183691;">&#39;credits&#39; </span><span style="font-weight:bold;color:#a71d5d;">or </span><span style="color:#183691;">&#39;license&#39; </span><span style="font-weight:bold;color:#a71d5d;">for </span><span style="color:#323232;">more information
+IPython </span><span style="color:#0086b3;">7.22.0 </span><span style="font-weight:bold;color:#a71d5d;">-- </span><span style="color:#323232;">An enhanced Interactive Python. Type </span><span style="color:#183691;">&#39;?&#39; </span><span style="font-weight:bold;color:#a71d5d;">for </span><span style="color:#62a35c;">help</span><span style="color:#323232;">.
+</span><span style="font-weight:bold;color:#a71d5d;">&gt;&gt;&gt; </span><span style="color:#62a35c;">print</span><span style="color:#323232;">(</span><span style="color:#183691;">&quot;Hello World&quot;</span><span style="color:#323232;">)
+Hello World
+</span><span style="font-weight:bold;color:#a71d5d;">&gt;&gt;&gt; 
+&gt;&gt;&gt; for </span><span style="color:#323232;">i </span><span style="font-weight:bold;color:#a71d5d;">in </span><span style="color:#62a35c;">range</span><span style="color:#323232;">(</span><span style="color:#0086b3;">3</span><span style="color:#323232;">):
+</span><span style="color:#0086b3;">...     </span><span style="color:#62a35c;">print</span><span style="color:#323232;">(i)
+... 
+</span><span style="color:#0086b3;">0
+1
+2
+</span><span style="font-weight:bold;color:#a71d5d;">&gt;&gt;&gt; 
+</span></code></pre>
+<p>Para tanto, basta seguir os seguintes passos:</p>
+<ol>
+<li>Execute, no terminal, o comando: <code>ipython profile create</code></li>
+<li>Na saída do comando acima, identifique o caminho para o arquivo <code>ipython_config.py</code>. Edite-o, incluindo o seguinte conteúdo no final:</li>
+</ol>
+<pre style="background-color:#ffffff;">
+<code><span style="font-weight:bold;color:#a71d5d;">from </span><span style="color:#323232;">IPython.terminal.prompts </span><span style="font-weight:bold;color:#a71d5d;">import </span><span style="color:#323232;">ClassicPrompts
+c </span><span style="font-weight:bold;color:#a71d5d;">= </span><span style="color:#323232;">get_config()
+c.TerminalInteractiveShell.prompts_class </span><span style="font-weight:bold;color:#a71d5d;">= </span><span style="color:#323232;">ClassicPrompts
+c.TerminalInteractiveShell.separate_in </span><span style="font-weight:bold;color:#a71d5d;">= </span><span style="color:#183691;">&#39;&#39;
+</span></code></pre>
+<p>Pronto, basta salvar e executar o <code>ipython</code> novamente.</p>
+
+  </div>
+
+  <a class="u-url" href="https:&#x2F;&#x2F;rneto.net&#x2F;20210403-ipython-classic-shell&#x2F;" hidden></a>
+</article>
+
+            </div>
+        </main>
+    </body>
+
+</html>

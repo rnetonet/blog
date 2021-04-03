@@ -1,7 +1,7 @@
 +++
 title = "Notas: Python in a Nutshell, 3rd"
 date = 2021-01-01
-draft = false
+draft = true
 +++
 
 * __Estrutura__
